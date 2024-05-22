@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUST FOR FUN</title>
+    <style>
+        .head{
+    text-align: center;
+    
+    
+}
+h1{
+    color: blueviolet;
+}
+
+.response{
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+}
+.yes{
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    margin: 1rem;
+    
+}
+.no{
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    margin: 1rem;
+    margin-left: 100px;
+}
+.main{
+    margin-top: 100px;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="head">
+        <h1>Do You Love Me </h1>
+        <img src="./heart.jpg" alt="heart" />
+    </div>
+
+    <div class="response">
+        <button class="yes" onclick="ch()">YES</button>
+        <button class="no" onclick="ph()">NO</button>
+    </div>
+</div>
+    
+</body>
+<script>
+    function ch(){
+        window.location.href="result.html";
+    }
+    
+    function ph(){
+        window.location.href="third.html";
+    }
+</script>
+</html>

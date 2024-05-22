@@ -1,0 +1,39 @@
+.head{
+    text-align: center;
+    
+    
+}
+h1{
+    color: blueviolet;
+}
+
+.response{
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+}
+.yes{
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    margin: 1rem;
+    
+}
+.no{
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    margin: 1rem;
+
+}
+
+.main{
+    margin-top: 100px;
+}
